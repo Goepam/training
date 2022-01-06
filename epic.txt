@@ -1,5 +1,10 @@
 priambula
 
+ls = shows the current directory with files in it
+ls -l = shows the current directory with details
+ls -al + shows current directory with hidden files in it
+mkdir = creates a folder
+touch = creates a file
 nano = editing the content of a file
 cat = reading from the file
 less = whole screen + scrolling up and down with keys
@@ -10,3 +15,6 @@ git status = shows the actual situation of event[s]
 git pull (git fetch + git merge) = sinchronizes commits in remote with local
 git gui& = opens up a GUI window 
 gitk& = opens up a page with the full history of any changes and commits
+git show = shows the content of a file (e.g with the use of shiwuan codes)
+git show -s --pretty=raw = Decipts a detailed info about a specified commit
+git ls-tree = shows blob files and its shiwuan codes
