@@ -1,0 +1,5 @@
+priambula
+
+nano = editing the content of a file
+cat = reading from the file
+less = whole screem+scrolling up and down with keys
