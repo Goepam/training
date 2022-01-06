@@ -2,4 +2,8 @@ priambula
 
 nano = editing the content of a file
 cat = reading from the file
-less = whole screem+scrolling up and down with keys
+less = whole screem + scrolling up and down with keys
+git add = adds file = prepares file for further commit
+git commit = is an actual commit
+git log = shows the status of commits
+git status = shows the actual situation of event[s]
