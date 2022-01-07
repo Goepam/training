@@ -28,4 +28,4 @@ git reset --soft = brings one stage down from commit area to stage area
 git reset --hard = removes all changes with no recourse effect 
 git reset HEAD^^ (HEAD~2) = removes (resets) specified numbers of commits
 git commit --amend -m "commit message" = amends the message of the commit
-git revert <sha1> =
+git revert <sha1> = don't know what this stands for
