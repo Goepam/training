@@ -23,6 +23,9 @@ git checkout -- (e.g. epic.txt) = restores the previous version of a file that w
 git checkout . = restores the previous version of all files at the current and downward directories 
 git clean -xdf = (x = git ignor, d = clean directory, f = force) cleans the specified file[s] that was not previously known to the git
 git reset -- (e.g. epic.txt) = unstages the file from the index [that has not yet been commited]
-git reset HEAD^^ (HEAD~2) = 
-git commit --amend -m "commit message" = ammends the content of the file which is ahead of the commited file in the commited file itself
+git reset --mixed = Same as above
+git reset --soft = brings one stage down from commit area to stage area
+git reset --hard = removes all changes with no recourse effect 
+git reset HEAD^^ (HEAD~2) = removes (resets) specified numbers of commits
+git commit --amend -m "commit message" = amends the message of the commit
 git revert <sha1> =
