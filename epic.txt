@@ -8,7 +8,7 @@ touch = creates a file
 nano = editing the content of a file
 cat = reading from the file
 less = whole screen + scrolling up and down with keys
-git add = adds file = prepares file for further commit
+git add = adds file to the index= prepares file for further commit
 git commit = is an actual commit
 git log = shows the status of commits
 git status = shows the actual situation of event[s]
@@ -18,3 +18,11 @@ gitk& = opens up a page with the full history of any changes and commits
 git show = shows the content of a file (e.g with the use of shiwuan codes)
 git show -s --pretty=raw = Decipts a detailed info about a specified commit
 git ls-tree = shows blob files and its shiwuan codes
+          UNDOING CHANGES
+git checkout -- (e.g. epic.txt) = restores the previous version of a file that was not comitted or pushed
+git checkout . = restores the previous version of all files at the current and downward directories 
+git clean -xdf = (x = git ignor, d = clean directory, f = force) cleans the specified file[s] that was not previously known to the git
+git reset -- (e.g. epic.txt) = unstages the file from the index [that has not yet been commited]
+git reset HEAD^^ (HEAD~2) = 
+git commit --amend -m "commit message" =
+git revert <sha1> =
