@@ -24,5 +24,5 @@ git checkout . = restores the previous version of all files at the current and d
 git clean -xdf = (x = git ignor, d = clean directory, f = force) cleans the specified file[s] that was not previously known to the git
 git reset -- (e.g. epic.txt) = unstages the file from the index [that has not yet been commited]
 git reset HEAD^^ (HEAD~2) = 
-git commit --amend -m "commit message" =
+git commit --amend -m "commit message" = ammends the content of the file which is ahead of the commited file in the commited file itself
 git revert <sha1> =
