@@ -30,3 +30,17 @@ git reset --hard = removes all changes with no recourse effect
 git reset HEAD^^ (HEAD~2) = removes (resets) specified numbers of commits
 git commit --amend -m "commit message" = amends the message of the commit
 git revert (<sha1>) = reverts a pushed commit by the specifoed blob
+           .gitignore
+# no.log files
+*.log
+# but do track error.log, even though you are ignoring .log files above
+!error,log
+# only ignore TODO file in the current directory, not subdir/TODO
+/TODO
+# ignore all files in the build directory
+build/
+# ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt
+# ignore all .pdf files in the doc/ directory
+doc/**/*.pdf
+
