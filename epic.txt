@@ -49,4 +49,4 @@ git checkout main = git checkout feature = switches back and forth between main 
 git merge feature = fast forward merging (shall be done by the main)  
 
 
- conflict solving = I have burnt up here
+ conflict solving = I cannot handle it = I have burnt up here
