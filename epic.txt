@@ -51,3 +51,9 @@ git merge --abort = cancels the changhes and merging
 git checkout --Xours --Xtheirs = If there is a conflict then either ours or theirs is coect
 git diff =
 git rebase main [or] master = rebases the commits' line on remote
+
+git tag ver1 = sets versions to the blobs
+git tag --list = lists all versions or whatever has been taged
+git push --tags = pushes tags
+git checkout ver1 = goes back to the specific position (e.g.tags, versions, blobs)
+
