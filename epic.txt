@@ -9,6 +9,8 @@ touch = creates a file
 nano = editing the content of a file
 cat = reading from the file
 less = whole screen + scrolling up and down with keys
+git add origin = adds remote repository as origin
+git remote remove origin = removes original repository
 git add = adds file to the index= prepares file for further commit
 git commit = is an actual commit
 git log = shows the status of commits
@@ -62,3 +64,7 @@ git stash list = lists stashed files
 git stash pop = removes file from the stash directory but does not delet the file itself and one can continue working on it
 git stash apply = does not delete the stashed file from the stash directory and one continue working on the stashed file
 git stash drop = deletes the stashed file leaving no possibility for edit
+git remote add <name> <url> = makes any specified remote repository as original
+git remote -v = shows the server you are working with
+git remote show <name> = same as git remote -v
+git fetch = is the opposite of git push = brings from remote =|!= git pull
