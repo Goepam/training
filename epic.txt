@@ -47,11 +47,6 @@ doc/**/*.pdf
 git checkout feature = creates a brach in the main with the name of feature
 git checkout main = git checkout feature = switches back and forth between main and feature
 git merge feature = fast forward merging (shall be done by the main)  
-
-conflict solving
-
-conflict solving = I cannot handle it = I have burnt up here
-
 git merge --abort = cancels the changhes and merging
 git checkout --Xours --Xtheirs = If there is a conflict then either ours or theirs is coect
 git diff =
