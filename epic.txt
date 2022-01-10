@@ -50,4 +50,4 @@ git merge feature = fast forward merging (shall be done by the main)
 git merge --abort = cancels the changhes and merging
 git checkout --Xours --Xtheirs = If there is a conflict then either ours or theirs is coect
 git diff =
-git rebase = rebases the commits' line on remote = it should be done from the feature then from the main then git pushed by the main
+git rebase main [or] master = rebases the commits' line on remote
