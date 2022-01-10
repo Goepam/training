@@ -57,3 +57,8 @@ git tag --list = lists all versions or whatever has been taged
 git push --tags = pushes tags
 git checkout ver1 = goes back to the specific position (e.g.tags, versions, blobs)
 
+git stash save "" = saves unadded and uncommited but modified file to a directory where it can be dealt with later = lets you move to other braches without necessarily making commits
+git stash list = lists stashed files
+git stash pop = removes file from the stash directory but does not delet the file itself and one can continue working on it
+git stash apply = does not delete the stashed file from the stash directory and one continue working on the stashed file
+git stash drop = deletes the stashed file leaving no possibility for edit
