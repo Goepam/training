@@ -55,3 +55,4 @@ conflict solving = I cannot handle it = I have burnt up here
 git merge --abort = cancels the changhes and merging
 git checkout --Xours --Xtheirs = If there is a conflict then either ours or theirs is coect
 git diff =
+git rebase = rebases the commits' line on remote = it should be done from the feature then from the main then git pushed by the main
